@@ -1,0 +1,307 @@
+/* Font Added */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Main Section starts here */
+.container{
+    width: 1321px;
+    margin: 0 auto;
+}
+
+
+
+/* Top Section Starts Here*/
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #161616;
+    color: white;
+    border-radius: 25px;
+    padding: 20px 70px 0 70px;
+    
+    margin-top: 100px;
+}
+.top-last img{
+    width: 581px;
+margin: -7px;
+}
+.top-first h1{
+    font-size: 70px;
+    margin: 0;
+}
+.top-first a{
+    text-decoration: none;
+    background-color: #DD0000;
+    font-size: 20px;
+    color: white;
+    padding: 13px 35px;
+    border-radius: 10px;
+}
+.top-first a:hover{
+background-color: #830000;
+transition: 0.2s;
+}
+.top-first p{
+    margin-bottom: 30px;
+}
+/* Top Section Stops Here*/
+
+
+
+/* Middle section start here */
+.middle-item{
+    margin-top: 130px;
+    display: flex;
+    flex-direction: row;
+}
+.middle-first{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #161616;
+    width: 247px;
+    height: 250px;
+    padding: 30px;
+    border-radius: 10px;
+    margin-right: 24px;
+}
+.middle-first a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 20px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.middle-first a:hover{
+    background-color: rgb(165, 165, 165);
+    transition: 0.2s;
+}
+#Selected{
+    background-color: #DD0000;
+    color: white;
+}
+#Selected:hover{
+    background-color: #830000;
+}
+.middle-last{
+    width: 936px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
+.blogs{
+    border:1px solid gray;
+    border-radius: 10px;
+    width: 312px;
+}
+.blogs a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    padding: 5px 16px;
+}
+.blogs span{
+    color: rgba(22, 22, 22, 1);
+    margin: 0 30px 0 5px;
+}
+.blog-last{
+    padding: 20px;
+}
+.blog-last p{
+    font-weight: 600;
+}
+/* Middle section stop here */
+
+
+
+/* Hidden button styles start here */
+.hidden-button{
+    display: none;
+    margin :0 auto;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.hidden-button a{
+    text-decoration: none;
+    background-color: #DD0000;
+    color: white;
+    padding :12px 30px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 20px;
+}
+/* Hidden button styles stop here */
+
+/* Bottom CSS Starts Here */
+footer{
+    background-color: rgba(22, 22, 22, 1);
+    color: white;
+    margin-top: 130px;
+    padding: 130px 0 30px 0;
+    text-align: center;
+}
+.bottom-item{
+    width: 1321px;
+    margin: 0 auto;
+}
+.bottom-item hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.bottom-first{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.bottom-last{
+    margin: 50px 0 130px 0
+}
+.bottom-last a{
+    text-decoration: none;
+    color:rgba(185, 185, 185, 1);
+    margin-right: 15px;
+}
+
+/* Responsive Css For Tablet  */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .container{
+        max-width: 700px;
+        margin: 0 auto;
+  }
+  .top-section{
+    padding: 20px 70px 40px 70px;
+  }
+  .top-section h1{
+    font-size: 40px;
+  }
+  .top-section p{
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .top-last img {
+    width: 300px;
+  }
+  .middle-item{
+    flex-direction: column;
+    margin-top: 70px;
+  }
+  .middle-first{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0;
+    margin-bottom: 30px;
+    }
+  .middle-first a{
+    border: 1px solid;
+    }
+    .middle-last{
+        width: 357px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 60px;
+        grid-row-gap: 60px;
+    }
+    .hidden-button{
+        display: block;
+        margin-top: 70px;
+    }
+    .bottom-item{
+        max-width: 700px;
+    }
+    .bottom-last{
+        width: 500px;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+
+/* Responsive Css For Mobile */
+@media only screen and (max-width: 688px) {
+    .container {
+        max-width: 330px;
+        margin: 0 auto;
+    }
+    .top-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #161616;
+        color: white;
+        border-radius: 25px;
+        padding: 0 50px;
+        margin-top: 0;
+        flex-direction: column;
+    }
+    .top-first {
+        margin-bottom: 46px;
+        text-align: center;
+    }
+    .top-first h1 {
+        font-size: 30px;
+        margin: 0;
+    }
+    .top-last img {
+        width: 100%;
+        margin: 0;
+    }
+    .middle-item{
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    .middle-first{
+        background-color: white;
+    }
+    .middle-first a{
+        border: 1px solid
+    }
+    .middle-last{
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        margin-top: 70px;
+    }
+    .bottom-item{
+        max-width: 330px;
+    }
+    .bottom-last{
+        display: flex;
+        flex-direction: column;
+    }
+    .bottom-last a{
+        padding-bottom: 15px;
+    }
+    .bottom-last i{
+        padding-bottom: 15px
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
